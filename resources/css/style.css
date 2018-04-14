@@ -27,6 +27,9 @@ h1 {
   display: block;
   list-style-type: none;
 }
+#topnav li {
+  padding: 10px 0px 10px 0px;
+}
 #process {
   font-size: 32px;
 }
