@@ -3,28 +3,32 @@
   <head>
     <meta charset="utf-8">
     <title>Broadway Design</title>
+    <link rel="stylesheet" href="./resources/css/style.css">
   </head>
   <body>
 
     <!-- Header -->
+    <div class="header">
 
-    <h1 id="header">Broadway Design</h1>
+      <h1 id="header">Broadway Design</h1>
 
     <!-- Top Navigation -->
 
-    <nav id="topnav">
-      <ul>
-        <li><a href="#header">Home</a></li>
-        <br>
-        <li><a href="#process">Process</a></li>
-        <br>
-        <li><a href="#portfolio">Work</a></li>
-        <br>
-        <li><a href="#team">Team</a></li>
-        <br>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+      <nav id="topnav">
+        <ul>
+          <li><a href="#header">Home</a></li>
+          <br>
+          <li><a href="#process">Process</a></li>
+          <br>
+          <li><a href="#portfolio">Work</a></li>
+          <br>
+          <li><a href="#team">Team</a></li>
+          <br>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+    </div>
 
     <!-- Process -->
 
@@ -32,31 +36,31 @@
       <h2 id="process">Our Process</h2>
 
       <img src="https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/identify.svg" alt="twirled arrow">
-      <h3 id="identify">Identify</h3>
+      <h3 id="identify" class="small">Identify</h3>
       <p>We focus on the most important details.</p>
 
       <img src="https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/understand.svg" alt="revolving arrow">
-      <h3 id="understand">Understand</h3>
+      <h3 id="understand" class="small">Understand</h3>
       <p>We study our projects inside and out.</p>
 
       <img src="https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/execute.svg" alt="straight arrow">
-      <h3 id="execute">Execute</h3>
+      <h3 id="execute" class="small">Execute</h3>
     </div>
 
     <!-- New York -->
 
-    <h3>Designed in New York</h3>
+    <h3 id="nyc">Designed in New York</h3>
 
     <!-- Info -->
 
     <div class="info">
-      <h3 id="portfolio">Portfolio</h3>
+      <h3 id="portfolio" class="small">Portfolio</h3>
       <p>Coming Soon</p>
 
-      <h3 id="team">Team</h3>
+      <h3 id="team" class="small">Team</h3>
       <p>We're Hiring!</p>
 
-      <h3 id="contact">Contact</h3>
+      <h3 id="contact" class="small">Contact</h3>
       <p>Phone: (555)-555-5555</p>
       <p>E-mail: test@example.com</p>
       <p>Twitter: @test</p>
@@ -66,8 +70,8 @@
 
     <nav id="bottomnav">
       <ul>
-        <li>&copy; Broadway 2016</li>
-        <li><a href="#header">Home</a></li>
+        <li id="logo">&copy; Broadway 2016</li>
+        <li width="5px"><a href="#header">Home</a></li>
         <li><a href="#process">About</a></li>
         <li><a href="#portfolio">Work</a></li>
         <li><a href="#team">Team</a></li>
